@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Metro Map Maker"></property>
+	<property name="APP_LOGO"	    value="m3logo.png"></property>
+	<property name="APP_PATH_CSS"	    value="css/"></property>
+	<property name="APP_CSS"	    value="m3_style.css"></property>
+
+        <!-- PREFERRED GEOMETRY -->
+        <property name="PREF_WIDTH"         value="800"></property>
+        <property name="PREF_HEIGHT"        value="600"></property>
+        <property name="START_MAXIMIZED"    value="true"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="SAVEAS_ICON"	    value="SaveAs.png"></property>
+        <property name="EXPORT_ICON"	    value="Export.png"></property>
+        <property name="LOGO_ICON"          value="m3logo.png"></property>
+        
+        <property name="UNDO_ICON"          value="undo.png"></property>
+        <property name="REDO_ICON"          value="redo.jpg"></property>
+        <property name="INFO_ICON"          value="info.png"></property> 
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Create a New Map"></property>
+        <property name="LOAD_TOOLTIP"		value="Load an Existing Map"></property>
+        <property name="SAVE_TOOLTIP"		value="Save this map"></property>
+        <property name="SAVEAS_TOOLTIP"         value="Save this map as"></property>
+        <property name="EXPORT_TOOLTIP"         value="Export this map"></property>
+        <property name="UNDO_TOOLTIP"		value="undo"></property>
+        <property name="REDO_TOOLTIP"		value="redo"></property>
+        <property name="INFO_TOOLTIP"		value="Information about the application "></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Close"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"		value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="New Work Ready for Editing"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="New Work Created"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Loading Completed and ready for editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Loading Completed"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="File Saving Completed"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Saving Completed"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Would you like to save your unsaved work first?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Save unsaved work?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="New Work Created but not yet Saved"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="The Work has been Loaded"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="The Work has been Saved"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Do you want to save your unsaved work first?"></property>
+	<property name="SAVE_WORK_TITLE"		value="Save your work"></property>
+	<property name="LOAD_WORK_TITLE"		value="Select work file to load"></property>
+	<property name="WORK_FILE_EXT"			value="pm"></property>
+	<property name="WORK_FILE_EXT_DESC"		value="goLogoLo Files"></property>
+
+       <!-- PROGRAM ICON FILES --> 
+        <property name="ADD_ICON"               value="add.png"></property>
+	<property name="REMOVE_ICON"		value="Remove.png"></property>
+        <property name="LINELIST_ICON"		value="list.png"></property>
+	<property name="ROTATELABEL_ICON"	value="rotate.png"></property>
+	<property name="ROUTE_ICON"             value="route.png"></property>
+	<property name="BOLD_ICON"              value="bold.png"></property>
+	<property name="ITALICS_ICON"		value="italics.png"></property>
+        <property name="ZOOMIN_ICON"		value="zoomin.png"></property>
+        <property name="ZOOMOUT_ICON"		value="zoomout.png"></property>
+        <property name="DECREASE_ICON"		value="decrease.png"></property>
+        <property name="INCREASE_ICON"		value="increase.png"></property>
+
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="ADDLINE_TOOLTIP"	    value="Add Line"></property>
+        <property name="REMOVELINE_TOOLTIP"	    value="Remove Line"></property>
+	<property name="ADDSTATIONONLINE_TOOLTIP"   value="Add Stations to Line"></property>
+	<property name="REMOVESTATIONONLINE_TOOLTIP" value="Remove Stations from Line"></property>
+	<property name="LINELIST_TOOLTIP"	     value="List All Stations in Line"></property>
+	<property name="ADDSTATION_TOOLTIP"	     value="Add New Station"></property>
+	<property name="REMOVESTATION_TOOLTIP"	     value="Remove Station"></property>
+	<property name="SNAPSHOT_TOOLTIP"           value="Snap to Grid"></property>
+	<property name="MOVELABEL_TOOLTIP"	    value="Move Station Label"></property>
+	<property name="ROTATELABEL_TOOLTIP"	    value="Rotate Station Label"></property>
+	<property name="ROUTE_TOOLTIP"              value="Find Route"></property>
+	<property name="SETIMAGEBACKGROUND_TOOLTIP" value="Set Image Background"></property>
+        <property name="ADDIMAGE_TOOLTIP"           value="Add Image Overlay"></property>
+	<property name="ADDLABEL_TOOLTIP"           value="Add Label"></property>
+        <property name="REMOVEELEMNT_TOOLTIP"       value="Remove Map Element"></property>
+        <property name="BOLD_TOOLTIP"               value="Bold"></property>
+	<property name="ITALICS_TOOLTIP"            value="Italics"></property>
+        <property name="ZOOMIN_TOOLTIP"             value="Zoom In"></property>
+        <property name="ZOOMOUT_TOOLTIP"            value="Zoom Out"></property>
+        <property name="DECREASE_TOOLTIP"           value="Decrease Map Size"></property>
+	<property name="INCREASE_TOOLTIP"           value="Increase Map Size"></property>
+        
+      
+        
+        
+	<!-- MESSAGES -->
+	<property name="REMOVE_ELEMENT_MESSAGE"	    value="Are you sure you wish to remove that element?"></property>
+		
+	<!-- ERROR MESSAGES AND TITLES FOR THEIR DIALOGS -->
+	<property name="ATTRIBUTE_UPDATE_ERROR_MESSAGE"	    value="WARNING: An error occured updating the element's attribute."></property>
+	<property name="ATTRIBUTE_UPDATE_ERROR_TITLE"	    value="Attribute Update Error"></property>
+	<property name="UPDATE_ERROR_MESSAGE"		    value="An error occured updating the UI"></property>
+	<property name="UPDATE_ERROR_TITLE"		    value="UI Update Error"></property>
+                
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

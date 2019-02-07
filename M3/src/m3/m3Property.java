@@ -1,0 +1,65 @@
+package m3;
+
+/**
+ * This class provides the properties that are needed to be loaded from
+ * language-dependent XML files.
+ * 
+ * @author Richard McKenna
+ * @author Sabrina To
+ * @version 1.0
+ */
+public enum m3Property {
+    SAVEAS_TOOLTIP,
+    EXPORT_TOOLTIP,
+    UNDO_TOOLTIP,
+    REDO_TOOLTIP,
+    ABOUT_TOOLTIP,
+    
+    //FRIST
+    ADD_ICON,
+    ADDLINE_TOOLTIP,
+    
+    REMOVE_ICON,
+    REMOVELINE_TOOLTIP,
+    
+    ADDSTATIONONLINE_TOOLTIP,
+    REMOVESTATIONONLINE_TOOLTIP,
+    
+    LINELIST_ICON,
+    LINELIST_TOOLTIP,
+    
+    //SECOND
+    ADDSTATION_TOOLTIP,
+    REMOVESTATION_TOOLTIP,
+    SNAPSHOT_TOOLTIP,
+    MOVELABEL_TOOLTIP,
+    ROTATELABEL_ICON,
+    ROTATELABEL_TOOLTIP,
+    
+    //THIRD
+    ROUTE_ICON,
+    ROUTE_TOOLTIP,
+    
+    //FOURTH
+    SETIMAGEBACKGROUND_TOOLTIP,
+    ADDIMAGE_TOOLTIP,
+    ADDLABEL_TOOLTIP,
+    REMOVEELEMNT_TOOLTIP,
+    
+    //FIFTH
+    BOLD_ICON,
+    BOLD_TOOLTIP,
+    ITALICS_ICON,
+    ITALICS_TOOLTIP,
+    
+    //SIXTH
+    ZOOMIN_ICON,
+    ZOOMIN_TOOLTIP,
+    ZOOMOUT_ICON,
+    ZOOMOUT_TOOLTIP,
+    DECREASE_ICON,
+    DECREASE_TOOLTIP,
+    INCREASE_ICON,
+    INCREASE_TOOLTIP,
+
+}
