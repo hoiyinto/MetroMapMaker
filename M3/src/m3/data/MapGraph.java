@@ -7,7 +7,6 @@ import java.util.Iterator;
 import java.util.Set;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
-import wordgraph.Word;
 
 /**
  *
